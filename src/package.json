@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint .", 
+    "lint:fix": "eslint . --fix",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
     "start": "node ."
