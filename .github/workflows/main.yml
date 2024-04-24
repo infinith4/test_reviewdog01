@@ -9,6 +9,9 @@ jobs:
   lint:
     name: Lint check
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v1
