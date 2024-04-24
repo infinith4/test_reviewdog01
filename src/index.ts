@@ -5,6 +5,7 @@ function hello(name: string): string {
   let bbb =  "bbb";
   let ccc =  "ccc";
   let ddd =  "ddd";
+  let eee =  "eee";
   return `Hello, ${name}!`;
 }
 
