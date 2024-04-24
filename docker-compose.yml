@@ -6,8 +6,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 5077:5077
+      - 5001:5001
     tty: true
+    volumes:
+      - type: bind
+        source: ./src
+        target: /src
 
 volumes:
   bin:
