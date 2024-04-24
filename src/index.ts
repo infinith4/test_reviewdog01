@@ -3,6 +3,8 @@ function hello(name: string): string {
   aaa=  "aaa1";
   aaa=  "aaa2";
   let bbb =  "bbb";
+  let ccc =  "ccc";
+  let ddd =  "ddd";
   return `Hello, ${name}!`;
 }
 
